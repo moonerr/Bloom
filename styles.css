@@ -4,3 +4,63 @@
 @media(max-width:370px){.app-shell{padding-left:13px;padding-right:13px}.hero h1{font-size:31px}.hero-art{right:-42px}.phase-card{padding:11px 10px}.phase-desc{min-height:85px}.phase-card h3{font-size:16px}}
 .symphony{margin:18px 0 16px;border:1px solid #eae7df;border-radius:13px;background:#f1f2eb;padding:17px}.network-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:12px}.network-heading .eyebrow{margin-bottom:5px}.network-heading h3,.rhythm-title h3{font:600 19px var(--serif);margin:0;color:#3b493e}.network-heading>p{max-width:420px;font-size:10px;line-height:1.55;color:#7c8379;margin:0}.network-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.network-card{background:#fffefa;border:1px solid #ece9e1;border-radius:9px;padding:12px 11px}.network-index{font-size:8px;letter-spacing:1px;color:#a6a69c;font-weight:700}.network-card h4{font:600 14px var(--serif);margin:7px 0 5px;color:#46574a}.network-card p{font-size:9px;line-height:1.55;color:#717970;margin:0}.rhythm-title{display:flex;align-items:center;gap:8px;margin:16px 0 9px;color:#83977f}.rhythm-title>span{font-size:19px}.rhythm-title h3{font-size:16px}.rhythm-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.rhythm-grid article{border-top:1px solid #dfe3d9;padding:9px 8px 0}.rhythm-grid article>span{font-size:8px;letter-spacing:.9px;font-weight:700;color:#788b75}.rhythm-grid p{font-size:9px;line-height:1.5;color:#767d74;margin:5px 0 0}
 @media(max-width:620px){.symphony{padding:13px 12px;margin:15px 0;border-radius:11px}.network-heading{display:block}.network-heading h3{font-size:17px}.network-heading>p{margin-top:7px;font-size:9px}.network-grid{grid-template-columns:1fr 1fr;gap:7px}.network-card{padding:10px}.network-card h4{font-size:13px;margin:6px 0 4px}.network-card p{font-size:9px}.rhythm-title{margin:14px 0 7px}.rhythm-title h3{font-size:15px}.rhythm-grid{grid-template-columns:1fr 1fr;column-gap:9px;row-gap:8px}.rhythm-grid article{padding:7px 5px 0}.rhythm-grid p{font-size:9px}}
+
+/* Readability pass: increase informational type and strengthen text contrast. */
+body{color:#29352d}
+.eyebrow{color:#566652;font-size:11px}
+.hero-sub,.library-intro,.network-heading>p,.network-card p,.rhythm-grid p,
+.phase-desc,.food-block p,.bottom-note p,.hormone-fact p,.notice p{color:#4f5b52}
+.hero-sub{font-size:16px}
+.tracker-caption{font-size:14px;color:#465349}
+.tracker-inputs label{font-size:12px;color:#566158}
+.tracker-inputs input,.tracker-inputs select{font-size:14px;color:#29352d}
+.phase-result{font-size:14px;color:#465349}
+.notice p{font-size:13px}
+.phase-window{font-size:11px;color:#53614f}
+.phase-card h4{font-size:12px;color:#53614f}
+.phase-desc{font-size:13px}
+.food-label{font-size:10px;color:#53614f}
+.food-block p{font-size:12px}
+.bottom-note p{font-size:12px;color:#59645b}
+.library-intro{font-size:15px}
+.search-box input{font-size:14px}
+.hormone-count{font-size:12px;color:#59645b}
+.hormone-type{font-size:10px;color:#59645b}
+.hormone-fact p{font-size:13px}
+.hormone-fact strong,.hormone-fact h4{color:#3e4b42}
+.network-index{font-size:10px;color:#626b61}
+.network-heading>p{font-size:13px}
+.network-card h4{font-size:15px}
+.network-card p{font-size:12px}
+.rhythm-grid article>span{font-size:10px;color:#53614f}
+.rhythm-grid p{font-size:12px}
+.sources a{font-size:12px;color:#49634d}
+.app-footer{font-size:11px;color:#626b63}
+.mobile-tab{font-size:12px;color:#626b63}
+.mobile-tab.active{color:#3f5b43}
+.mobile-tab.active span{color:#3f5b43}
+::placeholder{color:#707970;opacity:1}
+
+@media(max-width:620px){
+ .hero-sub{font-size:14px;max-width:270px}
+ .eyebrow{font-size:10px}
+ .tracker-inputs label{font-size:11px}
+ .tracker-inputs input,.tracker-inputs select{font-size:13px}
+ .notice p{font-size:12px}
+ .phase-window{font-size:10px}
+ .phase-card h4{font-size:11px}
+ .phase-desc{font-size:12px;min-height:78px}
+ .food-label{font-size:9px}
+ .food-block p{font-size:11px}
+ .bottom-note p{font-size:11px}
+ .library-intro{font-size:14px}
+ .hormone-type{font-size:9px}
+ .hormone-fact p{font-size:12px}
+ .network-heading>p{font-size:12px}
+ .network-card h4{font-size:14px}
+ .network-card p{font-size:11px}
+ .rhythm-grid article>span{font-size:9px}
+ .rhythm-grid p{font-size:11px}
+ .sources a{font-size:11px}
+ .app-footer{font-size:10px}
+}
