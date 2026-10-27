@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Bloom · Cycle & Hormone Care",
+  "short_name": "Bloom",
+  "description": "A calm, practical guide to menstrual-cycle nutrition and hormones.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "orientation": "portrait",
+  "background_color": "#f7f5f0",
+  "theme_color": "#f7f5f0",
+  "icons": [
+    { "src": "icons/bloom.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "icons/bloom-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/bloom-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
