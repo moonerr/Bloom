@@ -7,60 +7,60 @@
 
 /* Readability pass: increase informational type and strengthen text contrast. */
 body{color:#29352d}
-.eyebrow{color:#566652;font-size:11px}
+.eyebrow{color:#566652;font-size:14px}
 .hero-sub,.library-intro,.network-heading>p,.network-card p,.rhythm-grid p,
 .phase-desc,.food-block p,.bottom-note p,.hormone-fact p,.notice p{color:#4f5b52}
-.hero-sub{font-size:16px}
-.tracker-caption{font-size:14px;color:#465349}
-.tracker-inputs label{font-size:12px;color:#566158}
+.hero-sub{font-size:18px}
+.tracker-caption{font-size:16px;color:#465349}
+.tracker-inputs label{font-size:14px;color:#566158}
 .tracker-inputs input,.tracker-inputs select{font-size:14px;color:#29352d}
 .phase-result{font-size:14px;color:#465349}
-.notice p{font-size:13px}
-.phase-window{font-size:11px;color:#53614f}
-.phase-card h4{font-size:12px;color:#53614f}
-.phase-desc{font-size:13px}
-.food-label{font-size:10px;color:#53614f}
-.food-block p{font-size:12px}
-.bottom-note p{font-size:12px;color:#59645b}
-.library-intro{font-size:15px}
+.notice p{font-size:14px}
+.phase-window{font-size:14px;color:#53614f}
+.phase-card h4{font-size:14px;color:#53614f}
+.phase-desc{font-size:14px}
+.food-label{font-size:14px;color:#53614f}
+.food-block p{font-size:14px}
+.bottom-note p{font-size:14px;color:#59645b}
+.library-intro{font-size:16px}
 .search-box input{font-size:14px}
-.hormone-count{font-size:12px;color:#59645b}
-.hormone-type{font-size:10px;color:#59645b}
-.hormone-fact p{font-size:13px}
+.hormone-count{font-size:14px;color:#59645b}
+.hormone-type{font-size:12px;color:#59645b}
+.hormone-fact p{font-size:14px}
 .hormone-fact strong,.hormone-fact h4{color:#3e4b42}
-.network-index{font-size:10px;color:#626b61}
-.network-heading>p{font-size:13px}
-.network-card h4{font-size:15px}
-.network-card p{font-size:12px}
-.rhythm-grid article>span{font-size:10px;color:#53614f}
-.rhythm-grid p{font-size:12px}
-.sources a{font-size:12px;color:#49634d}
-.app-footer{font-size:11px;color:#626b63}
-.mobile-tab{font-size:12px;color:#626b63}
+.network-index{font-size:12px;color:#626b61}
+.network-heading>p{font-size:14px}
+.network-card h4{font-size:16px}
+.network-card p{font-size:14px}
+.rhythm-grid article>span{font-size:12px;color:#53614f}
+.rhythm-grid p{font-size:14px}
+.sources a{font-size:14px;color:#49634d}
+.app-footer{font-size:12px;color:#626b63}
+.mobile-tab{font-size:14px;color:#626b63}
 .mobile-tab.active{color:#3f5b43}
 .mobile-tab.active span{color:#3f5b43}
 ::placeholder{color:#707970;opacity:1}
 
 @media(max-width:620px){
- .hero-sub{font-size:14px;max-width:270px}
- .eyebrow{font-size:10px}
- .tracker-inputs label{font-size:11px}
- .tracker-inputs input,.tracker-inputs select{font-size:13px}
- .notice p{font-size:12px}
- .phase-window{font-size:10px}
- .phase-card h4{font-size:11px}
- .phase-desc{font-size:12px;min-height:78px}
- .food-label{font-size:9px}
- .food-block p{font-size:11px}
- .bottom-note p{font-size:11px}
- .library-intro{font-size:14px}
- .hormone-type{font-size:9px}
- .hormone-fact p{font-size:12px}
- .network-heading>p{font-size:12px}
- .network-card h4{font-size:14px}
- .network-card p{font-size:11px}
- .rhythm-grid article>span{font-size:9px}
- .rhythm-grid p{font-size:11px}
- .sources a{font-size:11px}
- .app-footer{font-size:10px}
+ .hero-sub{font-size:16px;max-width:270px}
+ .eyebrow{font-size:12px}
+ .tracker-inputs label{font-size:13px}
+ .tracker-inputs input,.tracker-inputs select{font-size:15px}
+ .notice p{font-size:14px}
+ .phase-window{font-size:12px}
+ .phase-card h4{font-size:13px}
+ .phase-desc{font-size:14px;min-height:78px}
+ .food-label{font-size:12px}
+ .food-block p{font-size:13px}
+ .bottom-note p{font-size:13px}
+ .library-intro{font-size:16px}
+ .hormone-type{font-size:12px}
+ .hormone-fact p{font-size:14px}
+ .network-heading>p{font-size:14px}
+ .network-card h4{font-size:16px}
+ .network-card p{font-size:13px}
+ .rhythm-grid article>span{font-size:12px}
+ .rhythm-grid p{font-size:13px}
+ .sources a{font-size:13px}
+ .app-footer{font-size:12px}
 }
